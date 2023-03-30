@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>AdamoffGroup</title>
+    <link
+      rel="icon"
+      type="image/jpg"
+      href="./images/adamoffgroup.JPG" />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- <div id="preloader"></div> -->
+    <div class="loader"></div>
+    <!-- <a
+      href="http://127.0.0.1:5500/index.html"
+      onclick="return confirm('sure?')"></a> -->
+    <!-- header section starts  -->
+
+    <header class="header">
+      <a href="#" class="logo">Adamoff <span>group</span></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#services">services</a>
+        <a href="#projects">projects</a>
+        <a href="#pricing">pricing</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="info-btn" class="fas fa-info-circle"></div>
+        <!-- <div id="search-btn" class="fas fa-search"></div>
+        <div id="login-btn" class="fas fa-user"></div> -->
+      </div>
+
+      <form action="" class="search-form">
+        <input
+          type="search"
+          name=""
+          placeholder="search here..."
+          id="search-box" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input
+          type="email"
+          placeholder="enter your email"
+          class="box" />
+        <input
+          type="password"
+          placeholder="enter your password"
+          class="box" />
+        <div class="flex">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+          <a href="#">forgot password?</a>
+        </div>
+        <input type="submit" value="login now" class="btn" />
+        <p>don't have an account <a href="#">create one!</a></p>
+      </form>
+      <div class="header_bg"></div>
+    </header>
+
+    <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+
+      <div class="info">
+        <a href="tel:+17473673375"> <i class="fas fa-phone"></i></a>
+        <h3>phone number</h3>
+
+        <p>+1-747-367-33-75</p>
+      </div>
+
+      <div class="info">
+        <a href="mailto:adamoffgroup@gmail.com">
+          <i class="fas fa-envelope"></i
+        ></a>
+        <h3>email address</h3>
+        <p>adamoffgroup@gmail.com</p>
+      </div>
+
+      <!-- <div class="info">
+        <a
+          href="https://goo.gl/maps/g4wZkMiiHLaGuwWNA"
+          target="_blank">
+          <i class="fas fa-map-marker-alt"></i>
+        </a>
+        <h3>office address</h3>
+        <p>Valley Village, Los Angeles, CA</p>
+      </div> -->
+
+      <div class="info">
+        <a
+          href="https://wa.me/message/N53B2ETK5XSCD1"
+          target="_blank">
+          <i class="fab fa-whatsapp"></i
+        ></a>
+        <h3>WhatsApp</h3>
+        <p>+1-747-367-33-75</p>
+      </div>
+
+      <div class="share">
+        <a
+          href="http://m.me/100005462109097"
+          class="fab fa-facebook-f"
+          target="_blank"></a>
+        <a
+          href="https://www.instagram.com/justintimurlake/"
+          class="fab fa-instagram"
+          target="_blank"></a>
+        <a
+          href="https://www.linkedin.com/in/timur-adamov-a16497220/"
+          class="fab fa-linkedin"
+          target="_blank"></a>
+      </div>
+    </div>
+    <div class="bgc-black"></div>
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(images/home-slide-1.jpg) no-repeat;
+            ">
+            <div class="content">
+              <h3>we provide best service</h3>
+              <p>
+                Our services include the creation of sites, promotion
+                on social media and finding new customers
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(images/home-slide-2.jpg) no-repeat;
+            ">
+            <div class="content">
+              <h3>making dream come to life</h3>
+              <p>
+                All your dreams about success in your company are our
+                work
+              </p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+
+          <section
+            class="swiper-slide slide"
+            style="
+              background: url(images/home-slide-3.jpg) no-repeat;
+            ">
+            <div class="content">
+              <h3>from concept to creation</h3>
+              <p>Our marketing plan including support in all steps</p>
+              <a href="#about" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+      <h1 class="heading">about us</h1>
+
+      <div class="row">
+        <div class="video">
+          <video
+            src="images/about-vid.mp4"
+            loop
+            muted
+            autoplay></video>
+        </div>
+
+        <div class="content">
+          <h3>
+            We will provide you the best work which you dreamt for!
+          </h3>
+          <p>
+            Our primary goal is to increase our primary goal is to
+            increase the popularity of your brand on all social media.
+            Our employees ready to help you 24/7 with all your
+            questions.
+          </p>
+          <a href="#services" class="btn">read more</a>
+        </div>
+      </div>
+
+      <div class="box-container">
+        <div class="box">
+          <h3>2+</h3>
+          <p>years in business</p>
+        </div>
+
+        <div class="box">
+          <h3>50+</h3>
+          <p>project completed</p>
+        </div>
+
+        <div class="box">
+          <h3>30+</h3>
+          <p>satisfied clients</p>
+        </div>
+
+        <div class="box">
+          <h3>10+</h3>
+          <p>active workers</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+      <h1 class="heading">our services</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/service-1.png" alt="" />
+          <h3>creating a site</h3>
+          <p>
+            Creation, improvement and uploading a site to the Internet
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-2.png" alt="" />
+          <h3>Creating a logo</h3>
+          <p>We create a personal logo specially for your business</p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-3.png" alt="" />
+          <h3>making design</h3>
+          <p>We have more than a hundred unique design examples</p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-4.png" alt="" />
+          <h3>improvement in social media</h3>
+          <p>We create you accounts in all popular social media</p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-5.png" alt="" />
+          <h3>customer support</h3>
+          <p>We provide 24/7 support for our customers</p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-6.png" alt="" />
+          <h3>create a plan</h3>
+          <p>
+            We provide a plane of work in all steps of work with your
+            brand
+          </p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-7.png" alt="" />
+          <h3>Secure payment</h3>
+          <p>all your data and payment method will be secured</p>
+        </div>
+
+        <div class="box">
+          <img src="images/service-8.png" alt="" />
+          <h3>Teamwork</h3>
+          <p>You can find new customers for us and get paid</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- projects section starts  -->
+
+    <section class="projects" id="projects">
+      <h1 class="heading">our projects</h1>
+
+      <div class="box-container">
+        <a href="images/project-1.jpg" class="box">
+          <div class="image">
+            <img src="images/project-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Personal portfolio</h3>
+              <p>CV, design</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-2.jpg" class="box">
+          <div class="image">
+            <img src="images/project-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>science project</h3>
+              <p>Education, science</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-3.jpg" class="box">
+          <div class="image">
+            <img src="images/project-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>restaurant site</h3>
+              <p>Cafe, restaurant</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-4.jpg" class="box">
+          <div class="image">
+            <img src="images/project-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Sign up form</h3>
+              <p>Log in, sing up</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-5.jpg" class="box">
+          <div class="image">
+            <img src="images/project-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>Separate items</h3>
+              <p>Business, clothes</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+
+        <a href="images/project-6.jpg" class="box">
+          <div class="image">
+            <img src="images/project-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <div class="info">
+              <h3>E-commerce site</h3>
+              <p>Clothes, business</p>
+            </div>
+            <i class="fas fa-plus"></i>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- projects section ends -->
+
+    <!-- teachers section starts  -->
+
+    <section class="teachers" id="teachers">
+      <h1 class="heading">Our <span>team</span></h1>
+
+      <div class="swiper teachers-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/tutor-1.jpg" alt="" />
+            <div class="share">
+              <a
+                href="https://m.facebook.com/100005462109097/"
+                class="fab fa-facebook-f"
+                target="_blank"></a>
+
+              <a
+                href="https://www.instagram.com/justintimurlake/"
+                class="fab fa-instagram"
+                target="_blank"></a>
+              <a
+                href="https://www.linkedin.com/in/timur-adamov-a16497220/"
+                class="fab fa-linkedin"
+                target="_blank"></a>
+            </div>
+            <h3>Timur Adamov</h3>
+            <h3>CIO</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/tutor-2.jpg" alt="" />
+            <div class="share">
+              <a
+                href="https://m.facebook.com/100002872032086/"
+                class="fab fa-facebook-f"
+                target="_blank"></a>
+
+              <a
+                href="https://www.instagram.com/wardanjann/"
+                class="fab fa-instagram"
+                target="_blank"></a>
+              <a
+                href="https://www.linkedin.com/in/rudolf-wardanjan-30851399/"
+                class="fab fa-linkedin"
+                target="_blank"></a>
+            </div>
+            <h3>Rudolf Wardanjan</h3>
+            <h3>Senior developer</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/tutor-3.jpg" alt="" />
+            <div class="share">
+              <a
+                href="https://www.instagram.com/eadavtian/"
+                class="fab fa-instagram"
+                target="_blank"></a>
+              <a
+                href="https://www.linkedin.com/in/edgar-davtian-0b2706258"
+                class="fab fa-linkedin"
+                target="_blank"></a>
+            </div>
+            <h3>Edgar Davtian</h3>
+            <h3>Junior developer</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/tutor-4.jpg" alt="" />
+            <div class="share">
+              <a
+                href="https://www.instagram.com/doctor_kesyan/"
+                class="fab fa-instagram"
+                target="_blank"></a>
+            </div>
+            <h3>Artur Kesyan</h3>
+            <h3>Junior developer</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/tutor-5.jpg" alt="" />
+            <div class="share">
+              <a
+                href="https://www.instagram.com/david__avedyan/"
+                class="fab fa-instagram"
+                target="_blank"></a>
+            </div>
+            <h3>David Avedyan</h3>
+            <h3>Manager</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/tutor-6.jpg" alt="" />
+            <div class="share"></div>
+            <h3>Dmiitri Yanov</h3>
+            <h3>Junior developer</h3>
+          </div>
+
+          <div class="swiper-slide slide">
+            <img src="images/tutor-7.jpg" alt="" />
+            <div class="share">
+              <a
+                href="https://www.instagram.com/ark_petros/"
+                class="fab fa-instagram"
+                target="_blank"></a>
+            </div>
+            <h3>Arkady Petrosyan</h3>
+            <h3>Designer</h3>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- teachers section ends -->
+
+    <!-- pricing section starts  -->
+
+    <section class="pricing" id="pricing">
+      <h1 class="heading">our tariffs</h1>
+
+      <div class="box-container">
+        <div id="box-price_1" class="box box-price box-price_1">
+          <div class="">
+            <i class="fas fa-home"></i>
+            <h3>basic plan</h3>
+            <div class="price"><span>$</span>199*<span></span></div>
+            <div class="list">
+              <p>Small project</p>
+              <p>Design from cetology</p>
+              <p>Depletion of site</p>
+            </div>
+          </div>
+          <a href="#u" class="btn btn-price btn-price_1"
+            >choose plan</a
+          >
+        </div>
+
+        <div id="box-price_2" class="box box-price box-price_2">
+          <div class="">
+            <i class="fas fa-building"></i>
+            <h3>premium plan</h3>
+            <div class="price"><span>$</span>499*<span></span></div>
+            <div class="list">
+              <p>Medium project</p>
+              <p>Design from cetology</p>
+              <p>Depletion of site</p>
+              <p>24/7 support</p>
+            </div>
+          </div>
+          <a href="#u" class="btn btn-price btn-price_2"
+            >choose plan</a
+          >
+        </div>
+
+        <div id="box-price_3" class="box box-price">
+          <div class="">
+            <i class="fas fa-city"></i>
+            <h3>ultimate plan</h3>
+            <div class="price"><span>$</span>999*<span></span></div>
+            <div class="list">
+              <p>Unique project</p>
+              <p>Unique design</p>
+              <p>Depletion of site</p>
+              <p>Bonuses</p>
+              <p>24/7 support</p>
+            </div>
+          </div>
+          <a href="#u" class="btn btn-price btn-price_3"
+            >choose plan</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- pricing section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+      <h1 class="heading">contact us</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13205.751006743667!2d-118.40462599999998!3d34.160724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c29609280cca4f%3A0x4913e14312c19901!2s12147%20Magnolia%20Blvd%20%23208%2C%20Valley%20Village%2C%20CA%2091607!5e0!3m2!1sen!2sus!4v1673585217799!5m2!1sen!2sus"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="https://formspree.io/f/xbjelnpr" method="POST">
+          <input type="hidden" name="_next" value="thankyou.html" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="true" />
+          <h3>get in touch</h3>
+          <input
+            type="hidden"
+            name="_subject"
+            value="New message from adamoffGroup" />
+          <input
+            type="text"
+            name="name"
+            placeholder="name"
+            class="box" />
+          <input
+            type="email"
+            name="email"
+            placeholder="email"
+            required
+            class="box" />
+
+          <input
+            type="number"
+            name="phone"
+            placeholder="phone"
+            class="box" />
+          <!-- <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"> -->
+          <textarea
+            placeholder="message"
+            class="box"
+            maxlength="250"
+            name="text"
+            id=""
+            cols="30"
+            rows="10"></textarea>
+          <input type="submit" value="send message" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blogs section starts 
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our blogs</h1>
+
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-1.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-2.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-3.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-4.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-5.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="images/blog-6.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h3>blog title goes here</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Assumenda, nobis!
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- blogs section ends -->
+
+    <!-- client logo section starts -->
+
+    <section class="logo-container">
+      <div class="swiper logo-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-1.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-2.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-3.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-4.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-5.png" alt="" />
+          </div>
+          <div class="swiper-slide slide">
+            <img src="images/client-logo-6.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client logo section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="links">
+        <a class="btn" href="#home">home</a>
+        <a class="btn" href="#about">about</a>
+        <a class="btn" href="#services">services</a>
+        <a class="btn" href="#projects">projects</a>
+        <a class="btn" href="#pricing">pricing</a>
+        <a class="btn" href="#contact">contact</a>
+      </div>
+
+      <div class="credit">
+        created by <span>Adamoff Group</span> | all rights reserved!
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+    <script>
+      lightGallery(
+        document.querySelector(".projects .box-container")
+      );
+    </script>
+  </body>
+</html>
